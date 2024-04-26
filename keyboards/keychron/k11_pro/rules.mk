@@ -2,6 +2,8 @@
 OPT_DEFS += -DCORTEX_ENABLE_WFI_IDLE=TRUE
 OPT_DEFS += -DNO_USB_STARTUP_CHECK -DENABLE_FACTORY_TEST
 
+KEY_LOCK_ENABLE = yes
+
 SRC += matrix.c
 
 include keyboards/keychron/bluetooth/bluetooth.mk
